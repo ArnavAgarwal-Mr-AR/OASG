@@ -1,0 +1,31 @@
+# Core dependencies
+numpy>=1.26.0
+scipy>=1.11.0
+setuptools>=68.2.2
+pandas
+peft
+
+# CUDA-dependent packages (install these first)
+torch --extra-index-url https://download.pytorch.org/whl/cu118
+<<<<<<< HEAD
+#flash-attn>=2.1.0 
+=======
+>>>>>>> e1fb953e5b65c9b1df13624807b65efda4f7cb05
+bitsandbytes
+accelerate
+
+# ML and audio processing
+nltk
+transformers>=4.33.2
+soundfile
+gradio
+
+# NLP tools
+sacremoses
+sentencepiece
+sacrebleu
+
+# Indic language processing
+indic-nlp-library-IT2 @ git+https://github.com/VarunGumma/indic_nlp_library
+IndicTransToolkit @ git+https://github.com/VarunGumma/IndicTransToolkit.git
+parler-tts @ git+https://github.com/huggingface/parler-tts.git

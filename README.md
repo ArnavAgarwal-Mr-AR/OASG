@@ -32,8 +32,8 @@ pip install bitsandbytes
 
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone <your-repo-url>
-cd <your-project-folder>
+git clone https://github.com/ArnavAgarwal-Mr-AR/OASG
+cd OASG
 ```
 
 ### **2️⃣ Set Up Hugging Face Authentication**
